@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactBackgroundGenerator/static/css/main.e00b38b9.css",
+    "main.js": "/ReactBackgroundGenerator/static/js/main.01e1bc55.js",
+    "static/js/787.7f2214b9.chunk.js": "/ReactBackgroundGenerator/static/js/787.7f2214b9.chunk.js",
+    "index.html": "/ReactBackgroundGenerator/index.html",
+    "main.e00b38b9.css.map": "/ReactBackgroundGenerator/static/css/main.e00b38b9.css.map",
+    "main.01e1bc55.js.map": "/ReactBackgroundGenerator/static/js/main.01e1bc55.js.map",
+    "787.7f2214b9.chunk.js.map": "/ReactBackgroundGenerator/static/js/787.7f2214b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e00b38b9.css",
+    "static/js/main.01e1bc55.js"
+  ]
+}
