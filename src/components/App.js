@@ -1,10 +1,10 @@
-import React from "react";
+import React,{Component} from "react";
 import '../style/App.css';
 import CoolGenerator from "./CoolGenerator";
 import InputColors from "./InputColors";
 import CurrentBackground from "./CurrentBackground";
 import ColorDirection from "./ColorDirection";
-class App extends React.Component{
+class App extends Component{
   constructor() {
     super();
     this.state={
@@ -22,7 +22,18 @@ class App extends React.Component{
   onDirectionChange = (event) =>{
     this.setState({direction:event.target.value})
   }
-
+  onGenerateClick = (event)=>{
+    this.setState({color1: event.target.value = this.genHexString() })
+    this.setState({color2: event.target.value = this.genHexString()})
+  }
+  genHexString = () => {
+    const hex = '0123456789ABCDEF';
+    let output = '#';
+    for (let i = 0; i < 6; ++i) {
+      output += hex.charAt(Math.floor(Math.random() * hex.length));
+    }
+    return output.toLowerCase();
+  }
   render(){
     const {color1,color2,direction} = this.state;
 
@@ -34,6 +45,7 @@ class App extends React.Component{
         <ColorDirection direction={this.onDirectionChange}/>
         <CurrentBackground/>
         <h2>{`linear-gradient(${direction}, ${color1} , ${color2})`}</h2>
+        <button onClick={this.onGenerateClick}>Generate Background</button>
       </div>
     );
   }
