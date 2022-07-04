@@ -34,7 +34,7 @@ class App extends React.Component{
         <ColorDirection direction={this.onDirectionChange}/>
         <CurrentBackground/>
         <h2>{`linear-gradient(${direction}, ${color1} , ${color2})`}</h2>
-      x</div>
+      </div>
     );
   }
 }
