@@ -51,4 +51,11 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+.logo{
+  width:6rem;
+  height: 6rem;
+  float: left;
+  margin-left: 2rem;
+  border-radius:3px;
+}
 

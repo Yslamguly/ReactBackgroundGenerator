@@ -2,6 +2,8 @@ import React,{Component} from "react";
 import '../style/App.css';
 import Header from "./Header";
 import InputColors from "./InputColors";
+import d9401fa6cee34a47b1b6ee02e770fbf4 from "../images/d9401fa6cee34a47b1b6ee02e770fbf4.svg";
+
 class App extends Component{
     constructor() {
         super();
@@ -12,10 +14,10 @@ class App extends Component{
             <div className="App">
                 <header>
                     <div className={'top-nav'}>
-                        <a href={'#'}><img src={"#"}/> </a>
+                        <a href={'#'}><img className={'logo'} src={d9401fa6cee34a47b1b6ee02e770fbf4} alt={'logo'}/> </a>
                         <nav className={'top-nav-right'}>
                             <ul>
-                                <li><a href={'#'}>Info</a></li>
+                                <li><a href={'https://github.com/Yslamguly/ReactBackgroundGenerator'}>Info</a></li>
                                 <li> <a href={'https://www.linkedin.com/in/yslamguly-pirgulyyev-60a373225/'}>Linkedin</a></li>
                                 <li><a href={'https://github.com/Yslamguly'}>GitHub</a></li>
                             </ul>

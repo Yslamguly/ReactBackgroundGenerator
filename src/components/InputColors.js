@@ -1,14 +1,15 @@
 import React from "react";
-import "../style/InputColors.css";
+import '../style/InputColors.css';
 import ColorDirection from './ColorDirection';
-import TransitionSlider from './TransitionSlider';
+// import TransitionSlider from './TransitionSlider';
 class InputColors extends React.Component {
     constructor() {
         super();
         this.state={
-            color1:'#00ff00',
-            color2:'#5a52c7',
-            direction:'to right',
+            color1:'#23f0b2',
+            color2:'#7c52fa',
+            direction:'circle',
+            gradient_type:'linear-gradient',
             slider:'0'
         }
     }
@@ -38,19 +39,29 @@ class InputColors extends React.Component {
         return output.toLowerCase();
     }
     render() {
-        const {color1,color2,direction,slider} = this.state;
-        document.body.style.background = `linear-gradient(${direction},${color1} ${slider}%, ${color2})`;
-        return(
-            <div>
-                <ColorDirection direction={this.onDirectionChange}/>
-                <h3>Enter colors</h3>
-                <input className="color1" type="color" name="color1" onChange={this.onColorChange} defaultValue={"#00ff00"}/>
-                <input className="color2" type="color" name="color2" onChange={this.onColorChange2} defaultValue={"#00c7fc"}/>
-                <TransitionSlider value={this.onSliderChange}/>
-                <button onClick={this.onGenerateClick}>Generate Background</button>
-                <h2>{`linear-gradient(${direction}, ${color1} ${slider}% , ${color2})`}</h2>
+        const {color1,color2,direction,slider,gradient_type} = this.state;
+        if(direction==='circle'){
+            document.body.style.background = `radial-gradient(${direction},${color1} ${slider}%, ${color2})`;
+        }
+        document.body.style.background = `${gradient_type}(${direction},${color1} ${slider}%, ${color2})`;
 
-            </div>
+        return(
+            <>
+                <ColorDirection direction={this.onDirectionChange}/>
+                <div className={'container'} >
+                    <h3 className={'text'}>Enter colors:</h3>
+                    <div className={'input-colors'}>
+                        <input className='color' type='color' name='color1' onChange={this.onColorChange} defaultValue={"#00ff00"}/>
+                        <input className='color' type='color' name='color2' onChange={this.onColorChange2} defaultValue={"#00c7fc"}/>
+                    </div>
+                    <button className={'color'} onClick={this.onGenerateClick}>Generate</button>
+                </div>
+                <div className={'code-box'}>
+                    <p className={'text'}>CSS Code:</p>
+                    <code>{`linear-gradient(${direction}, ${color1} ${slider}% , ${color2})`}</code>
+                </div>
+                {/*<TransitionSlider value={this.onSliderChange}/>*/}
+            </>
         )
     }
 }
