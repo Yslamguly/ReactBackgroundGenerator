@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactBackgroundGenerator/static/css/main.e00b38b9.css",
-    "main.js": "/ReactBackgroundGenerator/static/js/main.17bf54a7.js",
+    "main.css": "/ReactBackgroundGenerator/static/css/main.8fdfc354.css",
+    "main.js": "/ReactBackgroundGenerator/static/js/main.d2a56188.js",
     "static/js/787.7f2214b9.chunk.js": "/ReactBackgroundGenerator/static/js/787.7f2214b9.chunk.js",
+    "static/media/svg": "/ReactBackgroundGenerator/static/media/d9401fa6cee34a47b1b6ee02e770fbf4.16aff7cdae5f9b034d57339f6a5a2706.svg",
     "index.html": "/ReactBackgroundGenerator/index.html",
-    "main.e00b38b9.css.map": "/ReactBackgroundGenerator/static/css/main.e00b38b9.css.map",
-    "main.17bf54a7.js.map": "/ReactBackgroundGenerator/static/js/main.17bf54a7.js.map",
+    "main.8fdfc354.css.map": "/ReactBackgroundGenerator/static/css/main.8fdfc354.css.map",
+    "main.d2a56188.js.map": "/ReactBackgroundGenerator/static/js/main.d2a56188.js.map",
     "787.7f2214b9.chunk.js.map": "/ReactBackgroundGenerator/static/js/787.7f2214b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e00b38b9.css",
-    "static/js/main.17bf54a7.js"
+    "static/css/main.8fdfc354.css",
+    "static/js/main.d2a56188.js"
   ]
 }
