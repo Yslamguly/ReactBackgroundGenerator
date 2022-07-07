@@ -3,6 +3,8 @@
     flex-direction: column;
     color:white;
     font-weight: 900;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 100%;
     text-shadow: 2px 3px 0px #898999;
