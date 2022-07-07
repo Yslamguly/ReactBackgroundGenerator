@@ -11,6 +11,6 @@ You will need [Git](https://git-scm.com/) and [NodeJs](https://nodejs.org/en/dow
 
 1. Clone this repo: `git clone https://github.com/Yslamguly/ReactBackgroundGenerator`
 2. Move into the repository: `cd 'reponame'`
-3. Run `npm start`
+3. Remove the current origin repository: `git remote remove origin`
 
 ## You can see the live project here: https://yslamguly.github.io/ReactBackgroundGenerator/
