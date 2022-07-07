@@ -17,3 +17,14 @@ h1 {
 h2{
     color: yellow;
 }
+@media screen and (max-width: 545px) {
+    h1{
+        font-size: 1.7em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    h3{
+        font-size:.67em;
+    }
+}
