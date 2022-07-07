@@ -23,3 +23,7 @@ You will need [Git](https://git-scm.com/) and [NodeJs](https://nodejs.org/en/dow
 2. Start the project: `yarn start`
 
 ### Once your server has started, go to this url http://localhost:3000/ to see the project locally. It should look like [here](https://yslamguly.github.io/ReactBackgroundGenerator/).
+
+# Conclusion
+
+### If you liked this project or if it somehow helped you, don't hesitate to "star" ⭐️ this project 😉. Thank you!
