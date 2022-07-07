@@ -13,4 +13,9 @@ You will need [Git](https://git-scm.com/) and [NodeJs](https://nodejs.org/en/dow
 2. Move into the repository: `cd 'reponame'`
 3. Remove the current origin repository: `git remote remove origin`
 
+### After that you can install dependencies using NPM or Yarn
+#### Using NPM:
+1. Install the dependencies: `npm install`
+2. Start the project: `npm start`
+
 ## You can see the live project here: https://yslamguly.github.io/ReactBackgroundGenerator/
