@@ -15,7 +15,10 @@ You will need [Git](https://git-scm.com/) and [NodeJs](https://nodejs.org/en/dow
 
 ### After that you can install dependencies using NPM or Yarn
 #### Using NPM:
-1. Install the dependencies: `npm install`
+1. Install dependencies: `npm install`
 2. Start the project: `npm start`
 
+#### Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file before executing the below commands.
+1. Install dependencies: `yarn`
+2. Start the project: `yarn start`
 ## You can see the live project here: https://yslamguly.github.io/ReactBackgroundGenerator/
