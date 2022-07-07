@@ -21,4 +21,6 @@ You will need [Git](https://git-scm.com/) and [NodeJs](https://nodejs.org/en/dow
 #### Using Yarn: Be aware of that you'll need to delete the `package-lock.json` file before executing the below commands.
 1. Install dependencies: `yarn`
 2. Start the project: `yarn start`
+
+### Once your server has started, go to this url http://localhost:3000/ to see the project locally. It should look like [here](https://yslamguly.github.io/ReactBackgroundGenerator/).
 ## You can see the live project here: https://yslamguly.github.io/ReactBackgroundGenerator/
