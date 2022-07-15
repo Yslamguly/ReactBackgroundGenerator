@@ -3,8 +3,11 @@
 - Basic ideas and concepts in React
 - How to use class based components
 - How to use function based components
+- Reusing components
 - How to props
 - How to use states
+- Structure files in React
+- Deploying the project to GitHub Pages
 
 # Getting started 🚀?
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
