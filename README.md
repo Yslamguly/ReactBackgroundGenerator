@@ -1,3 +1,5 @@
+# About this project 💡
+
 # What I learned building this project 📚
 
 - Basic ideas and concepts in React
