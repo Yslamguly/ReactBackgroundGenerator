@@ -4,7 +4,7 @@
 - How to use class based components
 - How to use function based components
 - Reusing components
-- How to props
+- How to use props
 - How to use states
 - Structure files in React
 - Deploying the project to GitHub Pages
