@@ -1,4 +1,11 @@
 # About this project 💡
+Background generator helps you to create nice gradient based on 2 colors. 
+
+Features:
+- You can create your own gradient by giving input colors
+- Opportunity to choose direction of the gradient
+- Generate random colors
+- Get CSS code of the background
 
 # What I learned building this project 📚
 
