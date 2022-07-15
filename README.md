@@ -1,7 +1,10 @@
 # What I learned building this project 📚
 
-- nrfrjfre
-- frfnejrge
+- Basic ideas and concepts in React
+- How to use class based components
+- How to use function based components
+- How to props
+- How to use states
 
 # Getting started 🚀?
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
