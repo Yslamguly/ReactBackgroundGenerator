@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ReactBackgroundGenerator/static/css/main.b5f80113.css",
+    "main.css": "/ReactBackgroundGenerator/static/css/main.86d6fee5.css",
     "main.js": "/ReactBackgroundGenerator/static/js/main.0c3a140c.js",
     "static/js/787.7f2214b9.chunk.js": "/ReactBackgroundGenerator/static/js/787.7f2214b9.chunk.js",
     "index.html": "/ReactBackgroundGenerator/index.html",
-    "main.b5f80113.css.map": "/ReactBackgroundGenerator/static/css/main.b5f80113.css.map",
+    "main.86d6fee5.css.map": "/ReactBackgroundGenerator/static/css/main.86d6fee5.css.map",
     "main.0c3a140c.js.map": "/ReactBackgroundGenerator/static/js/main.0c3a140c.js.map",
     "787.7f2214b9.chunk.js.map": "/ReactBackgroundGenerator/static/js/787.7f2214b9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5f80113.css",
+    "static/css/main.86d6fee5.css",
     "static/js/main.0c3a140c.js"
   ]
 }
